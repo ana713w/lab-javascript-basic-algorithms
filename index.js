@@ -69,11 +69,7 @@ for (let i = phraseToCheck.length - 1; i >= 0; i--) {
     phraseBackwards += phraseToCheck[i];
 }
 
-console.log(phraseBackwards);
-console.log(phraseBackwards.toLowerCase());
-console.log(phraseToCheck.toLowerCase());
-console.log(phraseBackwards.toLowerCase().replaceAll(' ', ''));
-console.log(phraseToCheck.toLowerCase().replaceAll(' ', ''));
+
 
 if ( phraseToCheck.toLowerCase().replaceAll(' ', '') === phraseBackwards.toLowerCase().replaceAll(' ', '')) {
     console.log(`${phraseToCheck} is a palindrome`)
