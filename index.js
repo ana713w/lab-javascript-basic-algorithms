@@ -3,7 +3,7 @@
 
  console.log(`The driver's name is ${hacker1}`);
 
- const hacker2 = 'Chrome';
+ const hacker2 = 'John';
 
  console.log(`The navigator's name is ${hacker2}`)
 
@@ -18,4 +18,19 @@ if (hacker1.length > hacker2.length) {
 }
 
 
+
 // Iteration 3: Loops
+
+let driverName = ' ';
+
+for (let i = 0; i < hacker1.length; i++) {
+    driverName += hacker1[i].toUpperCase() + ' ';
+}
+console.log(driverName);
+
+let navigatorName = ' ';
+
+for (let i = hacker2.length - 1; i >= 0; i--) {
+    navigatorName += hacker2[i];
+}
+console.log(navigatorName);
